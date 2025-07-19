@@ -205,3 +205,39 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# === Deep Learning Artifacts ===
+# Model checkpoints
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Logs and output artifacts
+*.log
+logs/
+outputs/
+runs/  # for TensorBoard
+
+# Dataset files
+data/
+!data/README.md   # keep the data folder itself, but not files inside
+
+# Spectrogram images or audio artifacts
+*.wav
+*.mp3
+*.flac
+*.png
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / dependency folders
+.env
+.venv
+env/
+venv/
+
+# VSCode / IDE folders
+.vscode/
+.idea/
